@@ -1,16 +1,12 @@
 # Práctica 0: Primera aproximación a Java
 
-## Fecha de entrega: semana del 15 de septiembre de 2025
+## Fecha de entrega: semana del 14 de septiembre de 2026
 
 En esta primera práctica vamos a tomar contacto con el entorno que usaremos para realizar las prácticas de la asignatura *Tecnología de la Programación I*.
 
  Se trata de una práctica guiada en cuyo enunciado vamos detallando, uno a uno, los pasos a seguir. La mayoría de los pasos que se describen serán necesarios también para el resto de prácticas, pues se enseña tanto la construcción de la estructura de directorios que utilizaremos como la creación de los proyectos de Eclipse y el mecanismo de entrega.
 
-En este curso utilizaremos [*Java21*](https://www.oracle.com/java/technologies/downloads/#java21) y [*Eclipse 25.03*](https://www.eclipse.org/downloads/packages/release/2025-03/) ya que éstas son las versiones de las herramientas que están instaladas en los laboratorios de la Facultad. No obstante, es mucho más sencillo utilizar [*Eclipse 25.06*](https://www.eclipse.org/downloads/packages/release/2025-06/) que viene por defecto con un *Java21* integrado y cuyas diferencias no son significativas.
-
-<!-- Eclipse 2023-03 ya viene con un Java 17 integrado, por lo que si lo instalas en tu equipo y vas a usarlo para realizar las prácticas, no necesitas instalarte nada más. 
-> 
-> Si, por el contrario, decides, por tu cuenta y riesgo, trabajar de otra manera en tu equipo, tendrás que instalar Java de manera independiente. Con un poco de cuidado se podrían utilizar en tu equipo otras versiones posteriores del software manteniendo la compatibilidad, **pero deberás asegurarte de que funciona en las versiones oficiales ( [*Java21*](https://www.oracle.com/java/technologies/downloads/#java21) y [*Eclipse 25.03*](https://www.eclipse.org/downloads/packages/release/2025-03/)) de cara a la corrección**. --> 
+En este curso utilizaremos [*Java25*](https://www.oracle.com/java/technologies/downloads/#java25) y [*Eclipse 26.06*](https://www.eclipse.org/downloads/packages/release/2026-06/) ya que éstas son las versiones de las herramientas que están instaladas en los laboratorios de la Facultad.
 
 ## Estructura de directorios
 
@@ -61,10 +57,10 @@ Si no hay errores de compilación se creará el fichero `HelloWorld.class`.
 
 ![image](img/23_24_im7.png)
 
-Si hubo algún error, lo más probable es que se deba a que no se pudo invocar al compilador (`javac.exe`). El compilador debe ser accesible a través del PATH. Para ello, tendremos que agregar al PATH la dirección de la carpeta `bin` del JDK. En los laboratorios se encuentra en el directorio `C:\JDK\jdk21-x86_64\bin`. Para agregarlo podemos utilizar el siguiente comando:
+Si hubo algún error, lo más probable es que se deba a que no se pudo invocar al compilador (`javac.exe`). El compilador debe ser accesible a través del PATH. Para ello, tendremos que agregar al PATH la dirección de la carpeta `bin` del JDK. En los laboratorios se encuentra en el directorio `C:\JDK\jdk25-x86_64\bin`. Para agregarlo podemos utilizar el siguiente comando:
 
 ```
-set PATH=C:\JDK\jdk21-x86_64\bin;.;%PATH%
+set PATH=C:\JDK\jdk25-x86_64\bin;.;%PATH%
 ```
 
 Posteriormente, para asegurarnos de que estamos usando la versión correcta, podemos ejecutar el siguiente comando:
