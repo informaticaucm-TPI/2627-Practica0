@@ -302,8 +302,8 @@ Puedes crear un archivo `.zip` "desde cero" o utilizar la opción *File* -> *Exp
 
 ## Apéndice 1: Configuración de un JRE alternativo en el workspace de Eclipse
 
-Es posible que si instalas Eclipse 2025-03 en tu equipo no venga con la instalación de Java 21 integrada. En ese caso tendrás que
-instalar Java 21 de forma independiente (https://www.oracle.com/java/technologies/downloads/#java21) y posteriormente modificar las
+En caso de que quieras configurar Eclipse para usar un JDK espec ífico, tendrás que instalar dicho JDK y especificarle a Eclipse que quieres usarlo.
+Para hacer esto último, tienes que modificar las
 preferencias de tu *workspace*. Para modificar las preferencias selecciona *Window* -> *Preferences*. Puedes teclear "JRE" en el buscador o navegar hasta llegar a la opción *Java* -> *Installed JREs*. Una vez allí pulsa en el botón *Add...*
 
 ![image](img/JREworkspace01.png)
