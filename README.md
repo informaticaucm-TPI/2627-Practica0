@@ -302,7 +302,7 @@ Puedes crear un archivo `.zip` "desde cero" o utilizar la opción *File* -> *Exp
 
 ## Apéndice 1: Configuración de un JRE alternativo en el workspace de Eclipse
 
-En caso de que quieras configurar Eclipse para usar un JDK espec ífico, tendrás que instalar dicho JDK y especificarle a Eclipse que quieres usarlo.
+En caso de que quieras configurar Eclipse para usar un JDK específico, tendrás que instalar dicho JDK y especificarle a Eclipse que quieres usarlo.
 Para hacer esto último, tienes que modificar las
 preferencias de tu *workspace*. Para modificar las preferencias selecciona *Window* -> *Preferences*. Puedes teclear "JRE" en el buscador o navegar hasta llegar a la opción *Java* -> *Installed JREs*. Una vez allí pulsa en el botón *Add...*
 

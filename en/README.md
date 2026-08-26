@@ -1,13 +1,11 @@
-# PENDING TO DO
 # Assignment 0: A First Look at Java
 
-## Submission date: September 22nd 2025, 09:00 hrs
+## Submission date: Week 14th of September
 
 In this first assignment, we have our first contact with the development environment that we will use to carry out all the assignments of the *Programming Technology I* course. It takes the form of a step-by-step guide. Most of the steps described will also be needed in the following assignments since they show how to organise the different files, that is, the folder structure to be used, how to create Eclipse projects and how to submit the assignments.
 
-Throughout the course, we will use [*Java21*](https://www.oracle.com/java/technologies/downloads/#java21) and [*Eclipse 25.03*](https://www.eclipse.org/downloads/packages/release/2025-03/) since these are the versions of these software tools that are installed in the FDI labs. 
+Throughout the course, we will use [*Java25*](https://www.oracle.com/java/technologies/downloads/#java25) and [*Eclipse 26.06*](https://www.eclipse.org/downloads/packages/release/2026-06/) since these are the versions of these software tools that are installed in the FDI labs. 
 
-If you wish to install Eclipse on your own computer, it is actually easier to use the latest version of Eclipse, [*Eclipse 25.09*](https://www.eclipse.org/downloads/packages/release/2025-09/), which comes with *Java21* integrated by default; the differences between versions 25.03 and 25.09 are not significant. You may also choose to use a different IDE on your own computer. However, in all cases, whatever IDE and version you use to carry out your assignments, before you submit each of them, you must check that they compile and execute correctly on the configuration installed in the labs. This is also the configuration that will be used in the programming exam.
 
 ## Folder structure
 
@@ -64,7 +62,7 @@ If there are no compilation errors, a file called `HelloWorld.class` containing 
 
 ![image](../img/23_24_im7.png)
 
-However, if the path to the compiler executable (`javac.exe`) is not one of the paths contained in the `PATH` environment variable, the system will not find this executable and, consequently, will not be able to execute the `javac` command. To this end, we add the address of the `bin` folder of the JDK, which contains the executable file for this command and others, to the list of paths contained in the `PATH` variable. In the labs the required path is `C:\JDK\jdk17-x86_64\bin` which we can add to the `PATH` variable from the Windows command line as follows:
+However, if the path to the compiler executable (`javac.exe`) is not one of the paths contained in the `PATH` environment variable, the system will not find this executable and, consequently, will not be able to execute the `javac` command. To this end, we add the address of the `bin` folder of the JDK, which contains the executable file for this command and others, to the list of paths contained in the `PATH` variable. In the labs the required path is `C:\JDK\jdk25-x86_64\bin` which we can add to the `PATH` variable from the Windows command line as follows:
 
 ```
 set PATH=C:\JDK\jdk21-x86_64\bin;.;%PATH%
@@ -344,7 +342,8 @@ Check that you have the "*Mylyn WikiText 3.0*" plugin installed. Both in FDI lab
 
 ## Appendix 1: Configuring Eclipse to use a different JRE
 
-If your computer does not have Java 21 installed, you will have to install it yourself (https://www.oracle.com/java/technologies/downloads/#java21) and then modify your workspace preferences. To do so, select *Window* -> *Preferences*, then type "JRE" in the search textbox or navigate to the option *Java* -> *Installed JREs* and click on the *Add...* button.
+In case you want to configure Eclipse to use a different JDK, you need to download and install that JDK and then configure your workspace to let it use that specific JDK.
+In order to do that you have to modify your workspace preferences. To do so, select *Window* -> *Preferences*, then type "JRE" in the search textbox or navigate to the option *Java* -> *Installed JREs* and click on the *Add...* button.
 
 ![image](../img/JREworkspace01.png)
 
