@@ -115,7 +115,7 @@ Crear un nuevo workspace. Si ya está abierto Eclipse, cambiar al workspace dese
 
 Crear un proyecto: *File* -> *New* -> *Java Project*. Recuerda que cada práctica será un proyecto nuevo. Asegúrate de que el entorno de ejecución seleccionado es JavaSE-21. Por otro lado, en la última sección *Module*, **desmarca la opción *Create module-info.java file*** en caso de que aparezca marcada. 
 
-![image](img/24_25_eclipse_circle.png)
+![image](img/26_27_eclipse_circle.png)
 
 ### Paso 4:
 
