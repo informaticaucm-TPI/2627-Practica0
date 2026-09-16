@@ -1,6 +1,6 @@
 # Assignment 0: A First Look at Java
 
-## Submission date: 21st of September
+## Submission deadline: 21/09/26 at 09:00
 
 In this first assignment, we have our first contact with the development environment that we will use to carry out all the assignments of the *Programming Technology I* course. It takes the form of a step-by-step guide. Most of the steps described will also be needed in the following assignments since they show how to organise the different files, that is, the folder structure to be used, how to create Eclipse projects and how to submit the assignments.
 
