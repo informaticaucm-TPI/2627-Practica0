@@ -343,8 +343,8 @@ Check that you have the "*Mylyn WikiText 3.0*" plugin installed. Both in FDI lab
 
 ## Appendix 1: Configuring Eclipse to use a different JRE
 
-In case you want to configure Eclipse to use a different JDK, you need to download and install that JDK and then configure your workspace to let it use that specific JDK.
-In order to do that you have to modify your workspace preferences. To do so, select *Window* -> *Preferences*, then type "JRE" in the search textbox or navigate to the option *Java* -> *Installed JREs* and click on the *Add...* button.
+In case you want to configure Eclipse to use a different JDK, you need to download and install that JDK and then configure your workspace to use it, by modifying
+your workspace preferences. To do so, select *Window* -> *Preferences*, then type "JRE" in the search textbox or navigate to the option *Java* -> *Installed JREs* and click on the *Add...* button.
 
 ![image](../img/JREworkspace01.png)
 
