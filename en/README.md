@@ -116,7 +116,7 @@ Create a new workspace. If Eclipse is already open, change the desired workspace
 
 ### Step 3:
 
-Create a project: *File* -> *New* -> *Java Project*. **Recall that you should create a new project for each assignment**. Make sure that the execution environment selected is JavaSE-25. Lastly, in the part of the *New Java Project* window labelled *Module* **deselect the *Create module-info.java file*** if it is selected. When you have done this, click on *Next**; **do not click on *Finish*** since if you do so, you may be penalised for submissions having compiled files in the *src* directory instead of in a separate *bin* directory (thereby making your submissions hundreds of times larger than necessary and creating complications in the correction).
+Create a project: *File* -> *New* -> *Java Project*. **Recall that you should create a new project for each assignment**. Make sure that the execution environment selected is JavaSE-25. Lastly, in the part of the *New Java Project* window labelled *Module*, **deselect the *Create module-info.java file*** if it is selected. When you have done this, click on *Next*; **do not click on *Finish*** since if you do so, you may be penalised for submissions having compiled files in the *src* directory instead of in a separate *bin* directory (thereby making your submissions hundreds of times larger than necessary and creating complications in the correction).
 
 ![image](../img/26_27_eclipse_circle.png)
 
