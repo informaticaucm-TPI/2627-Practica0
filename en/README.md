@@ -4,8 +4,9 @@
 
 In this first assignment, we have our first contact with the development environment that we will use to carry out all the assignments of the *Programming Technology I* course. It takes the form of a step-by-step guide. Most of the steps described will also be needed in the following assignments since they show how to organise the different files, that is, the folder structure to be used, how to create Eclipse projects and how to submit the assignments.
 
-Throughout the course, we will use [*Java25*](https://www.oracle.com/java/technologies/downloads/#java25) and [*Eclipse 2026-03*](https://www.eclipse.org/downloads/packages/release/2026-03/r/eclipse-ide-java-developers) since these are the versions of these software tools that are installed in the FDI labs. 
+Throughout the course, we will use [*Java25*](https://www.oracle.com/java/technologies/downloads/#java25) and [*Eclipse 2026-03*](https://www.eclipse.org/downloads/packages/release/2026-03/r/eclipse-ide-java-developers) since these are the versions of these software tools that are installed in the FDI labs.
 
+If you wish to install Eclipse on your own computer, note that the standard download of Eclipse 2026-03 (via the page linked above) comes with Java25 integrated by default so if you do not want one, you do not need a separate Java installation. You may also choose to use a different IDE on your own computer. However, in all cases, whatever IDE and version you use to carry out your assignments, before you submit each of them, you must check that they compile and execute correctly on the configuration installed in the labs. **This is also the configuration that will be used in the programming exam**.
 
 ## Folder structure
 
