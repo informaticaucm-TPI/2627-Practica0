@@ -6,7 +6,7 @@ En esta primera práctica vamos a tomar contacto con el entorno que usaremos par
 
  Se trata de una práctica guiada en cuyo enunciado vamos detallando, uno a uno, los pasos a seguir. La mayoría de los pasos que se describen serán necesarios también para el resto de prácticas, pues se enseña tanto la construcción de la estructura de directorios que utilizaremos como la creación de los proyectos de Eclipse y el mecanismo de entrega.
 
-En este curso utilizaremos [*Java25*](https://www.oracle.com/java/technologies/downloads/#java25) y [*Eclipse 26.06*](https://www.eclipse.org/downloads/packages/release/2026-06/) ya que éstas son las versiones de las herramientas que están instaladas en los laboratorios de la Facultad.
+En este curso utilizaremos [*Java25*](https://www.oracle.com/java/technologies/downloads/#java25) y [*Eclipse 2026-03*](https://www.eclipse.org/downloads/packages/release/2026-03/r/eclipse-ide-java-developers) ya que éstas son las versiones de las herramientas que están instaladas en los laboratorios de la Facultad.
 
 ## Estructura de directorios
 
